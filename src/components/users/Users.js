@@ -24,7 +24,7 @@ const userStyle = {
 };
 
 Users.propTypes = {
-	user: PropTypes.object.isRequired,
+	users: PropTypes.array.isRequired,
 	loading: PropTypes.bool.isRequired
 };
 
